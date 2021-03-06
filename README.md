@@ -2,6 +2,8 @@
 
 A place to store your one-liner things.
 
+![example.gif](https://github.com/cleberzavadniak/pilha.sh/blob/main/example.gif?raw=true "Usage example")
+
 ## Requirements
 
 If using the `ui`:
