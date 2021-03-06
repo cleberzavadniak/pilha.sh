@@ -34,8 +34,9 @@ Selecting an entry copy it to the clipboard using `xclip`.
 If you type an entry starting with `+ `, it will be added.
 
 Internally, it's going to be saved in a file with the same name as the
-first tag, so `+ utils pilha.sh` will save a `utils pilha.sh` entry inside
-a `utils` file inside `BASEDIR` (usually `~/.config/pilha`).
+first tag, so `+ utils pilha.sh` will save a `{your-pasted-content}
+% utils pilha.sh` entry inside a `utils` file inside `BASEDIR` (usually
+`~/.config/pilha`).
 
 #### Usage suggestion
 
@@ -44,7 +45,7 @@ input and output. If I want to save an URL from the Web browser, for
 instance, I'd do:
 
 * In the browser: ctrl+l, ctrl+c (to copy the URL)
-* Windows key + Menu key (my keybinding to c)
+* Windows key + Menu key (my keybinding to the program)
 * `+ some tags I want to apply to the URL` and Enter
 
 As said before, using the `+ ` already grabs the content from the
