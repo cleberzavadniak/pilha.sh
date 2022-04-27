@@ -53,7 +53,7 @@ elif [[ $cmd == "ui" ]];then
         tags=$(echo $entry | sed 's:^\+ ::g')
         $0 add "$value" $tags
     else
-        echo $entry | sed 's: \% .\+::g' | xclip -selection clipboard -i
+        echo -n $entry | sed 's: \% .\+::g' | xclip -selection clipboard -i
     fi
 
 else
